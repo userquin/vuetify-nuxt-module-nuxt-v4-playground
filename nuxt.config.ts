@@ -39,5 +39,6 @@ export default defineNuxtConfig({
                 viewportSize: true,
             },
         },
+        enableVuetifyRules: true,
     },
 })
