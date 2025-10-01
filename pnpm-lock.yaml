@@ -4,6 +4,14 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@unvuetify/nuxt-i18n-utils': https://pkg.pr.new/@unvuetify/nuxt-i18n-utils@a348008
+  '@unvuetify/nuxt-utils': https://pkg.pr.new/@unvuetify/nuxt-utils@a348008
+  '@unvuetify/shared': https://pkg.pr.new/@unvuetify/shared@a348008
+  '@unvuetify/unimport-presets': https://pkg.pr.new/@unvuetify/unimport-presets@a348008
+  '@unvuetify/vite-styles-plugin': https://pkg.pr.new/@unvuetify/vite-styles-plugin@a348008
+  vuetify: ^3.10.3
+
 importers:
 
   .:
@@ -12,11 +20,20 @@ importers:
         specifier: ^10.1.0
         version: 10.1.0(@vue/compiler-dom@3.5.21)(db0@0.3.2)(eslint@9.36.0(jiti@2.6.0))(ioredis@5.8.0)(magicast@0.3.5)(rollup@4.52.2)(vue@3.5.21(typescript@5.9.2))
       '@unvuetify/nuxt-i18n-utils':
-        specifier: https://pkg.pr.new/@unvuetify/nuxt-i18n-utils@cf1f6f3
-        version: https://pkg.pr.new/@unvuetify/nuxt-i18n-utils@cf1f6f3(@nuxt/schema@4.1.2)(@nuxtjs/i18n@10.1.0(@vue/compiler-dom@3.5.21)(db0@0.3.2)(eslint@9.36.0(jiti@2.6.0))(ioredis@5.8.0)(magicast@0.3.5)(rollup@4.52.2)(vue@3.5.21(typescript@5.9.2)))(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
+        specifier: https://pkg.pr.new/@unvuetify/nuxt-i18n-utils@a348008
+        version: https://pkg.pr.new/@unvuetify/nuxt-i18n-utils@a348008(@nuxt/schema@4.1.2)(@nuxtjs/i18n@10.1.0(@vue/compiler-dom@3.5.21)(db0@0.3.2)(eslint@9.36.0(jiti@2.6.0))(ioredis@5.8.0)(magicast@0.3.5)(rollup@4.52.2)(vue@3.5.21(typescript@5.9.2)))(vuetify@3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
       '@unvuetify/nuxt-utils':
-        specifier: https://pkg.pr.new/@unvuetify/nuxt-utils@cf1f6f3
-        version: https://pkg.pr.new/@unvuetify/nuxt-utils@cf1f6f3(unimport@5.3.0)(vite@7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1))(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
+        specifier: https://pkg.pr.new/@unvuetify/nuxt-utils@a348008
+        version: https://pkg.pr.new/@unvuetify/nuxt-utils@a348008(unimport@5.3.0)(vite@7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1))(vuetify@3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
+      '@unvuetify/shared':
+        specifier: https://pkg.pr.new/@unvuetify/shared@a348008
+        version: https://pkg.pr.new/@unvuetify/shared@a348008(vuetify@3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
+      '@unvuetify/unimport-presets':
+        specifier: https://pkg.pr.new/@unvuetify/unimport-presets@a348008
+        version: https://pkg.pr.new/@unvuetify/unimport-presets@a348008(unimport@5.3.0)(vuetify@3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
+      '@unvuetify/vite-styles-plugin':
+        specifier: https://pkg.pr.new/@unvuetify/vite-styles-plugin@a348008
+        version: https://pkg.pr.new/@unvuetify/vite-styles-plugin@a348008(vite@7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1))(vuetify@3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
       nuxt:
         specifier: ^4.1.2
         version: 4.1.2(@parcel/watcher@2.5.1)(@vue/compiler-sfc@3.5.21)(db0@0.3.2)(eslint@9.36.0(jiti@2.6.0))(ioredis@5.8.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.52.2)(terser@5.44.0)(typescript@5.9.2)(vite@7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1))(yaml@2.8.1)
@@ -26,9 +43,12 @@ importers:
       vue-router:
         specifier: ^4.5.1
         version: 4.5.1(vue@3.5.21(typescript@5.9.2))
+      vuetify:
+        specifier: ^3.10.3
+        version: 3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2))
       vuetify-nuxt-module:
         specifier: file:vuetify-nuxt-module-1.0.0.tgz
-        version: file:vuetify-nuxt-module-1.0.0.tgz(@unvuetify/nuxt-i18n-utils@https://pkg.pr.new/@unvuetify/nuxt-i18n-utils@cf1f6f3(@nuxt/schema@4.1.2)(@nuxtjs/i18n@10.1.0(@vue/compiler-dom@3.5.21)(db0@0.3.2)(eslint@9.36.0(jiti@2.6.0))(ioredis@5.8.0)(magicast@0.3.5)(rollup@4.52.2)(vue@3.5.21(typescript@5.9.2)))(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2))))(typescript@5.9.2)(unimport@5.3.0)(vite@7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1))(vue@3.5.21(typescript@5.9.2))
+        version: file:vuetify-nuxt-module-1.0.0.tgz(@unvuetify/nuxt-i18n-utils@https://pkg.pr.new/@unvuetify/nuxt-i18n-utils@a348008(@nuxt/schema@4.1.2)(@nuxtjs/i18n@10.1.0(@vue/compiler-dom@3.5.21)(db0@0.3.2)(eslint@9.36.0(jiti@2.6.0))(ioredis@5.8.0)(magicast@0.3.5)(rollup@4.52.2)(vue@3.5.21(typescript@5.9.2)))(vuetify@3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2))))(typescript@5.9.2)(unimport@5.3.0)(vite@7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1))(vue@3.5.21(typescript@5.9.2))
 
 packages:
 
@@ -1364,55 +1384,36 @@ packages:
     peerDependencies:
       vue: '>=3.5.18'
 
-  '@unvuetify/nuxt-i18n-utils@https://pkg.pr.new/@unvuetify/nuxt-i18n-utils@cf1f6f3':
-    resolution: {tarball: https://pkg.pr.new/@unvuetify/nuxt-i18n-utils@cf1f6f3}
+  '@unvuetify/nuxt-i18n-utils@https://pkg.pr.new/@unvuetify/nuxt-i18n-utils@a348008':
+    resolution: {tarball: https://pkg.pr.new/@unvuetify/nuxt-i18n-utils@a348008}
     version: 1.1.0
     peerDependencies:
       '@nuxt/schema': '>=3.9.0'
       '@nuxtjs/i18n': ^8.0.0 || ^9.0.0 || ^10.0.0-0
-      vuetify: ^3.0.0
+      vuetify: ^3.10.3
 
-  '@unvuetify/nuxt-utils@1.1.0':
-    resolution: {integrity: sha512-Hn60ifIQhy9Z13q1nM3GwNUneb2rghfUN9rwzhB52DzcJrbO9JEDL5Y2ZgAthY0xQjYbpFiOuTH/RFztavB7xg==}
-
-  '@unvuetify/nuxt-utils@https://pkg.pr.new/@unvuetify/nuxt-utils@cf1f6f3':
-    resolution: {tarball: https://pkg.pr.new/@unvuetify/nuxt-utils@cf1f6f3}
+  '@unvuetify/nuxt-utils@https://pkg.pr.new/@unvuetify/nuxt-utils@a348008':
+    resolution: {tarball: https://pkg.pr.new/@unvuetify/nuxt-utils@a348008}
     version: 1.1.0
 
-  '@unvuetify/shared@1.1.0':
-    resolution: {integrity: sha512-ys1yW8jKsEZla3vohaHgtl6QXd4AxdU8LNqqA0Dgnwc87A7X9XWt8h+4gXjEi7D9qDPjZK1vM4i6pqLo5SDGpg==}
-    peerDependencies:
-      vuetify: ^3.0.0
-
-  '@unvuetify/shared@https://pkg.pr.new/userquin/unvuetify-monorepo/@unvuetify/shared@cf1f6f3':
-    resolution: {tarball: https://pkg.pr.new/userquin/unvuetify-monorepo/@unvuetify/shared@cf1f6f3}
+  '@unvuetify/shared@https://pkg.pr.new/@unvuetify/shared@a348008':
+    resolution: {tarball: https://pkg.pr.new/@unvuetify/shared@a348008}
     version: 1.1.0
     peerDependencies:
-      vuetify: ^3.0.0
+      vuetify: ^3.10.3
 
-  '@unvuetify/unimport-presets@1.1.0':
-    resolution: {integrity: sha512-yY6LG20ll2g4TB9mZKK3YQrJ6i5HCPAnOsS290fvNjgx5y19ej0wb3SaZmlG/5I/QgJTzXjeJun5VcPZv568mg==}
-    peerDependencies:
-      unimport: ^4.0.0 || ^5.0.0
-
-  '@unvuetify/unimport-presets@https://pkg.pr.new/userquin/unvuetify-monorepo/@unvuetify/unimport-presets@cf1f6f3':
-    resolution: {tarball: https://pkg.pr.new/userquin/unvuetify-monorepo/@unvuetify/unimport-presets@cf1f6f3}
+  '@unvuetify/unimport-presets@https://pkg.pr.new/@unvuetify/unimport-presets@a348008':
+    resolution: {tarball: https://pkg.pr.new/@unvuetify/unimport-presets@a348008}
     version: 1.1.0
     peerDependencies:
       unimport: ^4.0.0 || ^5.0.0
 
-  '@unvuetify/vite-styles-plugin@1.1.0':
-    resolution: {integrity: sha512-J5prcZbIzCwhjL0oFPFRpcz5AY+Qa1mizcNZSSrwZTMU5MoCJraMClE7f+UWqhsqhIL2D5g++eR/zmxSdFrqxQ==}
-    peerDependencies:
-      vite: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
-      vuetify: ^3.0.0
-
-  '@unvuetify/vite-styles-plugin@https://pkg.pr.new/userquin/unvuetify-monorepo/@unvuetify/vite-styles-plugin@cf1f6f3':
-    resolution: {tarball: https://pkg.pr.new/userquin/unvuetify-monorepo/@unvuetify/vite-styles-plugin@cf1f6f3}
+  '@unvuetify/vite-styles-plugin@https://pkg.pr.new/@unvuetify/vite-styles-plugin@a348008':
+    resolution: {tarball: https://pkg.pr.new/@unvuetify/vite-styles-plugin@a348008}
     version: 1.1.0
     peerDependencies:
       vite: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
-      vuetify: ^3.0.0
+      vuetify: ^3.10.3
 
   '@vercel/nft@0.30.1':
     resolution: {integrity: sha512-2mgJZv4AYBFkD/nJ4QmiX5Ymxi+AisPLPcS/KPXVqniyQNqKXX+wjieAbDXQP3HcogfEbpHoRMs49Cd4pfkk8g==}
@@ -3662,7 +3663,7 @@ packages:
         optional: true
 
   vuetify-nuxt-module@file:vuetify-nuxt-module-1.0.0.tgz:
-    resolution: {integrity: sha512-wL0GaGYtrsWs+88sxG5S5a8ISI83k3A7/MSeOMZUlZIcCX5X58SihrFd25rv6mpk0mJ0Rc4lsGejDygYlUumrQ==, tarball: file:vuetify-nuxt-module-1.0.0.tgz}
+    resolution: {integrity: sha512-nQmisYhIgnVEh055L/otPEpkcemI1XCerViKXFIR2YpgaEqnKWBO+uDo5EcKtYDPtIsZIiNvEiuNaEADOiBLAQ==, tarball: file:vuetify-nuxt-module-1.0.0.tgz}
     version: 1.0.0
     peerDependencies:
       '@unvuetify/nuxt-i18n-utils': ^1.0.0
@@ -3670,8 +3671,8 @@ packages:
       '@unvuetify/nuxt-i18n-utils':
         optional: true
 
-  vuetify@3.10.2:
-    resolution: {integrity: sha512-uuAm+uj170ZWdS0aiomhgtdYOR3/I2yzynskBfYyFB1Fn/HKvlvPDaU3ISZnf0GHIJQENdj7eLg/wTChrIwEQw==}
+  vuetify@3.10.3:
+    resolution: {integrity: sha512-psc7oZfjz3LwH96ZRzSm4iGcOKKoeoVZIyO5Q5xO4vcUfWYxobL7TvMQv53jv1PnNvaMIXWeVIrQmiyce5dpTg==}
     peerDependencies:
       typescript: '>=4.7'
       vite-plugin-vuetify: '>=2.1.0'
@@ -5073,71 +5074,41 @@ snapshots:
       unhead: 2.0.17
       vue: 3.5.21(typescript@5.9.2)
 
-  '@unvuetify/nuxt-i18n-utils@https://pkg.pr.new/@unvuetify/nuxt-i18n-utils@cf1f6f3(@nuxt/schema@4.1.2)(@nuxtjs/i18n@10.1.0(@vue/compiler-dom@3.5.21)(db0@0.3.2)(eslint@9.36.0(jiti@2.6.0))(ioredis@5.8.0)(magicast@0.3.5)(rollup@4.52.2)(vue@3.5.21(typescript@5.9.2)))(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))':
+  '@unvuetify/nuxt-i18n-utils@https://pkg.pr.new/@unvuetify/nuxt-i18n-utils@a348008(@nuxt/schema@4.1.2)(@nuxtjs/i18n@10.1.0(@vue/compiler-dom@3.5.21)(db0@0.3.2)(eslint@9.36.0(jiti@2.6.0))(ioredis@5.8.0)(magicast@0.3.5)(rollup@4.52.2)(vue@3.5.21(typescript@5.9.2)))(vuetify@3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))':
     dependencies:
       '@nuxt/schema': 4.1.2
       '@nuxtjs/i18n': 10.1.0(@vue/compiler-dom@3.5.21)(db0@0.3.2)(eslint@9.36.0(jiti@2.6.0))(ioredis@5.8.0)(magicast@0.3.5)(rollup@4.52.2)(vue@3.5.21(typescript@5.9.2))
-      vuetify: 3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2))
+      vuetify: 3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2))
 
-  '@unvuetify/nuxt-utils@1.1.0(unimport@5.3.0)(vite@7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1))(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))':
+  '@unvuetify/nuxt-utils@https://pkg.pr.new/@unvuetify/nuxt-utils@a348008(unimport@5.3.0)(vite@7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1))(vuetify@3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))':
     dependencies:
-      '@unvuetify/shared': 1.1.0(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
-      '@unvuetify/unimport-presets': 1.1.0(unimport@5.3.0)(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
-      '@unvuetify/vite-styles-plugin': 1.1.0(vite@7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1))(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
+      '@unvuetify/shared': https://pkg.pr.new/@unvuetify/shared@a348008(vuetify@3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
+      '@unvuetify/unimport-presets': https://pkg.pr.new/@unvuetify/unimport-presets@a348008(unimport@5.3.0)(vuetify@3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
+      '@unvuetify/vite-styles-plugin': https://pkg.pr.new/@unvuetify/vite-styles-plugin@a348008(vite@7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1))(vuetify@3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
     transitivePeerDependencies:
       - unimport
       - vite
       - vuetify
 
-  '@unvuetify/nuxt-utils@https://pkg.pr.new/@unvuetify/nuxt-utils@cf1f6f3(unimport@5.3.0)(vite@7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1))(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))':
-    dependencies:
-      '@unvuetify/shared': https://pkg.pr.new/userquin/unvuetify-monorepo/@unvuetify/shared@cf1f6f3(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
-      '@unvuetify/unimport-presets': https://pkg.pr.new/userquin/unvuetify-monorepo/@unvuetify/unimport-presets@cf1f6f3(unimport@5.3.0)(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
-      '@unvuetify/vite-styles-plugin': https://pkg.pr.new/userquin/unvuetify-monorepo/@unvuetify/vite-styles-plugin@cf1f6f3(vite@7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1))(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
-    transitivePeerDependencies:
-      - unimport
-      - vite
-      - vuetify
-
-  '@unvuetify/shared@1.1.0(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))':
+  '@unvuetify/shared@https://pkg.pr.new/@unvuetify/shared@a348008(vuetify@3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))':
     dependencies:
       upath: 2.0.1
-      vuetify: 3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2))
+      vuetify: 3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2))
 
-  '@unvuetify/shared@https://pkg.pr.new/userquin/unvuetify-monorepo/@unvuetify/shared@cf1f6f3(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))':
+  '@unvuetify/unimport-presets@https://pkg.pr.new/@unvuetify/unimport-presets@a348008(unimport@5.3.0)(vuetify@3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))':
     dependencies:
-      upath: 2.0.1
-      vuetify: 3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2))
-
-  '@unvuetify/unimport-presets@1.1.0(unimport@5.3.0)(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))':
-    dependencies:
-      '@unvuetify/shared': 1.1.0(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
+      '@unvuetify/shared': https://pkg.pr.new/@unvuetify/shared@a348008(vuetify@3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
       unimport: 5.3.0
     transitivePeerDependencies:
       - vuetify
 
-  '@unvuetify/unimport-presets@https://pkg.pr.new/userquin/unvuetify-monorepo/@unvuetify/unimport-presets@cf1f6f3(unimport@5.3.0)(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))':
+  '@unvuetify/vite-styles-plugin@https://pkg.pr.new/@unvuetify/vite-styles-plugin@a348008(vite@7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1))(vuetify@3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))':
     dependencies:
-      '@unvuetify/shared': https://pkg.pr.new/userquin/unvuetify-monorepo/@unvuetify/shared@cf1f6f3(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
-      unimport: 5.3.0
-    transitivePeerDependencies:
-      - vuetify
-
-  '@unvuetify/vite-styles-plugin@1.1.0(vite@7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1))(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))':
-    dependencies:
-      '@unvuetify/shared': 1.1.0(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
+      '@unvuetify/shared': https://pkg.pr.new/@unvuetify/shared@a348008(vuetify@3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
       pathe: 2.0.3
       upath: 2.0.1
       vite: 7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1)
-      vuetify: 3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2))
-
-  '@unvuetify/vite-styles-plugin@https://pkg.pr.new/userquin/unvuetify-monorepo/@unvuetify/vite-styles-plugin@cf1f6f3(vite@7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1))(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))':
-    dependencies:
-      '@unvuetify/shared': https://pkg.pr.new/userquin/unvuetify-monorepo/@unvuetify/shared@cf1f6f3(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
-      pathe: 2.0.3
-      upath: 2.0.1
-      vite: 7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1)
-      vuetify: 3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2))
+      vuetify: 3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2))
 
   '@vercel/nft@0.30.1(rollup@4.52.2)':
     dependencies:
@@ -7687,15 +7658,15 @@ snapshots:
     optionalDependencies:
       typescript: 5.9.2
 
-  vuetify-nuxt-module@file:vuetify-nuxt-module-1.0.0.tgz(@unvuetify/nuxt-i18n-utils@https://pkg.pr.new/@unvuetify/nuxt-i18n-utils@cf1f6f3(@nuxt/schema@4.1.2)(@nuxtjs/i18n@10.1.0(@vue/compiler-dom@3.5.21)(db0@0.3.2)(eslint@9.36.0(jiti@2.6.0))(ioredis@5.8.0)(magicast@0.3.5)(rollup@4.52.2)(vue@3.5.21(typescript@5.9.2)))(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2))))(typescript@5.9.2)(unimport@5.3.0)(vite@7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1))(vue@3.5.21(typescript@5.9.2)):
+  vuetify-nuxt-module@file:vuetify-nuxt-module-1.0.0.tgz(@unvuetify/nuxt-i18n-utils@https://pkg.pr.new/@unvuetify/nuxt-i18n-utils@a348008(@nuxt/schema@4.1.2)(@nuxtjs/i18n@10.1.0(@vue/compiler-dom@3.5.21)(db0@0.3.2)(eslint@9.36.0(jiti@2.6.0))(ioredis@5.8.0)(magicast@0.3.5)(rollup@4.52.2)(vue@3.5.21(typescript@5.9.2)))(vuetify@3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2))))(typescript@5.9.2)(unimport@5.3.0)(vite@7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1))(vue@3.5.21(typescript@5.9.2)):
     dependencies:
       '@nuxt/kit': 4.1.2(magicast@0.3.5)
-      '@unvuetify/nuxt-utils': 1.1.0(unimport@5.3.0)(vite@7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1))(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
+      '@unvuetify/nuxt-utils': https://pkg.pr.new/@unvuetify/nuxt-utils@a348008(unimport@5.3.0)(vite@7.1.7(jiti@2.6.0)(terser@5.44.0)(yaml@2.8.1))(vuetify@3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
       local-pkg: 1.1.2
       magicast: 0.3.5
-      vuetify: 3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2))
+      vuetify: 3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2))
     optionalDependencies:
-      '@unvuetify/nuxt-i18n-utils': https://pkg.pr.new/@unvuetify/nuxt-i18n-utils@cf1f6f3(@nuxt/schema@4.1.2)(@nuxtjs/i18n@10.1.0(@vue/compiler-dom@3.5.21)(db0@0.3.2)(eslint@9.36.0(jiti@2.6.0))(ioredis@5.8.0)(magicast@0.3.5)(rollup@4.52.2)(vue@3.5.21(typescript@5.9.2)))(vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
+      '@unvuetify/nuxt-i18n-utils': https://pkg.pr.new/@unvuetify/nuxt-i18n-utils@a348008(@nuxt/schema@4.1.2)(@nuxtjs/i18n@10.1.0(@vue/compiler-dom@3.5.21)(db0@0.3.2)(eslint@9.36.0(jiti@2.6.0))(ioredis@5.8.0)(magicast@0.3.5)(rollup@4.52.2)(vue@3.5.21(typescript@5.9.2)))(vuetify@3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)))
     transitivePeerDependencies:
       - typescript
       - unimport
@@ -7704,7 +7675,7 @@ snapshots:
       - vue
       - webpack-plugin-vuetify
 
-  vuetify@3.10.2(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)):
+  vuetify@3.10.3(typescript@5.9.2)(vue@3.5.21(typescript@5.9.2)):
     dependencies:
       vue: 3.5.21(typescript@5.9.2)
     optionalDependencies:

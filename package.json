@@ -12,11 +12,23 @@
   },
   "dependencies": {
     "@nuxtjs/i18n": "^10.1.0",
-    "@unvuetify/nuxt-i18n-utils": "https://pkg.pr.new/@unvuetify/nuxt-i18n-utils@cf1f6f3",
-    "@unvuetify/nuxt-utils": "https://pkg.pr.new/@unvuetify/nuxt-utils@cf1f6f3",
+    "@unvuetify/nuxt-i18n-utils": "^1.1.0",
+    "@unvuetify/nuxt-utils": "^1.1.0",
+    "@unvuetify/shared": "^1.1.0",
+    "@unvuetify/unimport-presets": "^1.1.0",
+    "@unvuetify/vite-styles-plugin": "^1.1.0",
     "nuxt": "^4.1.2",
     "vue": "^3.5.21",
     "vue-router": "^4.5.1",
+    "vuetify": "^3.10.3",
     "vuetify-nuxt-module": "file:vuetify-nuxt-module-1.0.0.tgz"
+  },
+  "resolutions": {
+    "@unvuetify/nuxt-i18n-utils": "https://pkg.pr.new/@unvuetify/nuxt-i18n-utils@a348008",
+    "@unvuetify/nuxt-utils": "https://pkg.pr.new/@unvuetify/nuxt-utils@a348008",
+    "@unvuetify/shared": "https://pkg.pr.new/@unvuetify/shared@a348008",
+    "@unvuetify/unimport-presets": "https://pkg.pr.new/@unvuetify/unimport-presets@a348008",
+    "@unvuetify/vite-styles-plugin": "https://pkg.pr.new/@unvuetify/vite-styles-plugin@a348008",
+    "vuetify": "^3.10.3"
   }
 }
